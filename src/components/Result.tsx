@@ -12,6 +12,7 @@ const Result = ({recipe}: Prop) => {
     return(
         <div className="Result" onClick={() => setDetails(true)}>
             <h2 id="Recipe-Name">{recipe.label}</h2>
+            
             <img src={recipe.image} alt="Image of Tastey Dish" />
             <p>Cook and Prep Time: {recipe.totalTime} minutes.</p>
             <a href={recipe.url}>Click Here to find Instructions</a>

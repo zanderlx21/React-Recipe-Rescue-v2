@@ -22,7 +22,6 @@ const Main = () => {
 
     return (
         <div className="Fixed-Header">
-            <img src={RRLogo} id="RRLogo" alt=""/>
             <SearchForms onSubmit={handleSubmitForm}/>
             <ResultsList recipes={recipes}/>
         </div>
